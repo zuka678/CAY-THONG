@@ -87,10 +87,8 @@ def drawsnow():
         dens = 6
         snowsize = r.randint(1, 10) 
         for j in range(dens): 
-           
             t.fd(int(snowsize))
             t.backward(int(snowsize))
-           
             t.right(int(360 / dens))  
 
 
